@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A8827B41CBEAA1A00B82C10 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8827B31CBEAA1A00B82C10 /* SettingsViewController.swift */; };
-		1A8827B81CBEAF9400B82C10 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8827B71CBEAF9400B82C10 /* SettingTableViewCell.swift */; };
-		1A8827BA1CBEB09B00B82C10 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8827B91CBEB09B00B82C10 /* Setting.swift */; };
-		1A8827BC1CBEB18100B82C10 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8827BB1CBEB18100B82C10 /* SettingsController.swift */; };
 		1AD5779E1CBEA8730074DBE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD5779D1CBEA8730074DBE6 /* AppDelegate.swift */; };
 		1AD577A31CBEA8730074DBE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD577A11CBEA8730074DBE6 /* Main.storyboard */; };
 		1AD577A51CBEA8730074DBE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD577A41CBEA8730074DBE6 /* Assets.xcassets */; };
@@ -18,10 +14,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A8827B31CBEAA1A00B82C10 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		1A8827B71CBEAF9400B82C10 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
-		1A8827B91CBEB09B00B82C10 /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
-		1A8827BB1CBEB18100B82C10 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		1AD5779A1CBEA8730074DBE6 /* Settings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Settings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD5779D1CBEA8730074DBE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AD577A21CBEA8730074DBE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,9 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				1AD5779D1CBEA8730074DBE6 /* AppDelegate.swift */,
-				9D5EF6431D90558000D4952C /* Model */,
-				9D5EF6441D90558500D4952C /* View Controllers */,
-				9D5EF6451D90558A00D4952C /* Views */,
 				9D5EF6421D90557000D4952C /* Resources */,
 			);
 			path = SettingsMiniProject;
@@ -78,31 +67,6 @@
 				1AD577A91CBEA8730074DBE6 /* Info.plist */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		9D5EF6431D90558000D4952C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				1A8827B91CBEB09B00B82C10 /* Setting.swift */,
-				1A8827BB1CBEB18100B82C10 /* SettingsController.swift */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		9D5EF6441D90558500D4952C /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				1A8827B31CBEAA1A00B82C10 /* SettingsViewController.swift */,
-			);
-			name = "View Controllers";
-			sourceTree = "<group>";
-		};
-		9D5EF6451D90558A00D4952C /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				1A8827B71CBEAF9400B82C10 /* SettingTableViewCell.swift */,
-			);
-			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,11 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A8827B81CBEAF9400B82C10 /* SettingTableViewCell.swift in Sources */,
-				1A8827BC1CBEB18100B82C10 /* SettingsController.swift in Sources */,
 				1AD5779E1CBEA8730074DBE6 /* AppDelegate.swift in Sources */,
-				1A8827BA1CBEB09B00B82C10 /* Setting.swift in Sources */,
-				1A8827B41CBEAA1A00B82C10 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

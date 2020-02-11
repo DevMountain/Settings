@@ -1,5 +1,7 @@
 Settings is a project designed to help students practice working with intermediate table view concepts, creating protocols, and implementing MVC patterns
 
+![](SettingsAppGif.gif)
+
 **Look over the README in the root folder of this repository**
 
 # Suggested breakdown for Settings

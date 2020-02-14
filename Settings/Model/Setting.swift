@@ -9,11 +9,11 @@
 import UIKit
 
 /**
-Creates our Setting object - *MODEL*
+Creates our Setting Object - *MODEL*
  - Properties:
-    - name: The *Sring* identifer for the Setting.
-    - icon: The *UIImage* that matches the Setting.
-    - isOn: The *Bool* to designiate whether the setting is on or not.
+    - name: The `String` identifer for the Setting
+    - icon: The `UIImage` that matches the Setting
+    - isOn: The `Bool` to designiate whether the Setting is on or not
  */
 class Setting {
 
